@@ -1,8 +1,11 @@
 import React from "react";
+import Sidebar from "./Sidebar";
 
 function App() {
   return (
-    <p className="flex justify-center text-green-600 text-3xl ">Hi Mom!</p>
+    <div className="flex">
+      <Sidebar />
+    </div>
   );
 }
 
