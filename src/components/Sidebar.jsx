@@ -9,8 +9,8 @@ const Sidebar = () => {
         className="fixed top-0 left-0 w-16 m-0 h-screen p-1
     flex flex-col bg-primary text-secondary shadow-lg"
       >
-        <SidebarIcon icon={<FaFire size={28} />} />
-        <SidebarIcon icon={<FaPoop size={20} />} />
+        <SidebarIcon icon={<FaFire size={30} />} />
+        <SidebarIcon icon={<FaPoop size={25} />} />
         <SidebarIcon icon={<BsAmazon size={30} />} />
       </div>
       <div className="fixed bottom-3 left-0 mx-auto p-2 text-secondary ">
@@ -24,7 +24,7 @@ const SidebarIcon = ({ icon, text = "tooltip 💡" }) => {
   return (
     <div className="sidebar-icon group">
       {icon}
-      <span class="sidebar-tooltip group-hover:scale-100">{text}</span>
+      <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
     </div>
   );
 };
