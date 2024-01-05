@@ -15,7 +15,17 @@ const Dashboard = () => {
         <p className="px-3">Reset User Password</p>
         <input type="text" placeholder="Search" />
       </div>
-      <div></div>
+      <div className="w-full  grid grid-flow-col grid-cols-4">
+        <div className="relative top-[10%] rounded-md bg-blue-400 text-white px-[40px] py-[200px]">
+          1
+        </div>
+        <div className="relative top-[10%] rounded-md bg-blue-400 text-white p-6 px-[40px] py-[200px]">
+          2
+        </div>
+        <div className="relative top-[10%] rounded-md bg-blue-400 text-white p-6 px-[40px] py-[200px]">
+          3
+        </div>
+      </div>
     </div>
   );
 };

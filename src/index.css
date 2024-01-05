@@ -6,8 +6,8 @@
   .sidebar-icon{
     @apply relative flex justify-center items-center w-12 
     h-12 mx-auto my-2 shadow-lg bg-black 
-    text-green-500 hover:bg-green-700 hover:text-white
-    rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear
+    text-gray-500 hover:bg-gray-300 hover:text-white
+    rounded-xl transition-all duration-300 ease-linear
   }
 
   .sidebar-tooltip{
@@ -17,3 +17,8 @@
   }
 
 }
+
+body {
+  background-color: black;
+}
+

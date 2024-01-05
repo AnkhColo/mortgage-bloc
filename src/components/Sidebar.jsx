@@ -11,7 +11,7 @@ const Sidebar = () => {
     <>
       <div
         className="fixed top-0 left-0 w-16 m-0 h-screen p-1
-    flex flex-col bg-primary text-secondary shadow-lg"
+    flex flex-col bg-black text-secondary shadow-lg"
       >
         <SidebarIcon icon={<HomeIcon size={30} />} />
         <SidebarIcon icon={<MenuIcon size={25} />} />
