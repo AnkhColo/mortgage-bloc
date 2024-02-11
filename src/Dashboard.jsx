@@ -14,8 +14,8 @@ const Dashboard = () => {
         <div>Invite Employee</div>
       </button>
       <div className="absolute flex my-12 mx-7 p-2 top-3 left-1">
-        <p className="px-2 mx-1 rounded-md bg-gray-600">Dashboard</p>
-        <p className="px-2 mx-1 rounded-md bg-gray-600">Employees</p>
+        <p className="px-10 mx-1 py-1 rounded-md bg-gray-600">Dashboard</p>
+        <p className="px-10 mx-1 py-1 rounded-md bg-gray-600">Employees</p>
       </div>
       {/* <div className=" absolute flex mx-2 top-16 right-5 px-2">
         <p className="px-3">Reset User Password</p>
