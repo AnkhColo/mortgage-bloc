@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ReactComponent as PlusIcon } from "./icons/plus-circle.svg";
+import { ReactComponent as PlusIcon } from "../icons/plus-circle.svg";
 
 const Dashboard = () => {
   const [transactions, setTransactions] = useState("1,598");

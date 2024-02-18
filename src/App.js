@@ -1,18 +1,19 @@
 import React from "react";
 import Sidebar from "./components/Sidebar";
-import Dashboard from "./Dashboard";
+import Dashboard from "./pages/Dashboard";
 import { Route, Routes } from "react-router";
-import Employees from "./Employees";
+import Employees from "./pages/Employees";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <div className="flex">
+    <BrowserRouter>
       <Sidebar />
       <Routes>
-        <Route path="/Dashboard" element={Dashboard} />
-        <Route path="/Employees" element={Employees} />
+        <Route path="/" element={<Dashboard />} />
+        <Route path="employees" element={<Employees />} />
       </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 
