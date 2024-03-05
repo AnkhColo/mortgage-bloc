@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ReactComponent as PlusIcon } from "../icons/plus-circle.svg";
 
-const Dashboard = () => {
+const Dashboards = () => {
   const [transactions, setTransactions] = useState("1,598");
   const [pendingApp, setPendingApp] = useState(0);
   const [completedApp, setCompletedApp] = useState(0);
@@ -22,7 +22,7 @@ const Dashboard = () => {
         <input type="text" placeholder="Search" className="rounded-lg" />
       </div> */}
       <div className="w-full  grid grid-flow-col grid-cols-3 px-8">
-        <div className="relative top-[10%] rounded-md bg-gray-700 text-white px-[40px] py-[240px] mr-2">
+        <div className="relative top-[10%] rounded-md bg-gray-700 text-white px-[40px] py-[270px] mr-2">
           <div className="absolute top-2 text-sm left-2 text-blue-400">
             Transactions
           </div>
@@ -49,4 +49,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+export default Dashboards;
