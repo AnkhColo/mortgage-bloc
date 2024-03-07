@@ -5,7 +5,7 @@ export default function Employees() {
   return (
     <div className=" fixed top-[-1] bottom-1 left-14 right-1 h-[91%] w-[90%] bg-gray-800 rounded-xl m-3 px-3 py-5 flex justify-center items-center font-arial">
       <div
-        className=" fixed top-[-1] bottom-1 left-14 right-1 h-[91%] w-[90%] bg-gray-800 rounded-xl 
+        className=" fixed top-[-1] bottom-1 left-14 right-1 h-[91%] w-[90%] bg-gray-900 rounded-xl 
       m-3 px-3 py-5 flex justify-center items-center font-arial text-white"
       >
         {/* Section 1 - Header elements */}
@@ -16,11 +16,13 @@ export default function Employees() {
           <PlusIcon className="mr-2" />
           <div>Download</div>
         </button>
-        <div className="absolute flex my-12 mx-7 p-2 top-3 left-1">
-          <p className="px-10 mx-1 py-1 rounded-md bg-gray-600">Overview</p>
-          <p className="px-10 mx-1 py-1 rounded-md bg-gray-600">Charts</p>
-          <p className="px-10 mx-1 py-1 rounded-md bg-gray-600">Credit Data</p>
-          <p className="px-10 mx-1 py-1 rounded-md bg-gray-600">Transactions</p>
+        <div className="absolute flex my-12 mx-4 py-2  top-3 left-0">
+          <p className="px-10 mx-1 py-1 rounded-md bg-slate-800">Overview</p>
+          <p className="px-10 mx-1 py-1 rounded-md bg-slate-800">Charts</p>
+          <p className="px-10 mx-1 py-1 rounded-md bg-slate-800">Credit Data</p>
+          <p className="px-10 mx-1 py-1 rounded-md bg-slate-800">
+            Transactions
+          </p>
         </div>
 
         {/* Section 2 - Grid elements */}
@@ -34,10 +36,11 @@ export default function Employees() {
               <Section title={"Total Current Balance"} value={"£4,409.49"} />
             </div>
           </div>
-          <div className="absolute top-[18%] rounded-md bg-gray-700 text-white w-[47%]  px-[100px] py-[240px] mr-2 ml-4 left-0">
+          <div className="absolute top-[18%] rounded-md bg-slate-800 text-white w-[47%]  px-[100px] py-[240px] mr-2 ml-4 left-0">
             <div className="absolute top-2 text-sm left-2 text-blue-400">
               Applicants Pending
             </div>
+            <div></div>
           </div>
         </div>
       </div>
@@ -48,8 +51,8 @@ export default function Employees() {
 function Section({ title, value }) {
   return (
     <>
-      <div className="relative rounded-md my-1 bg-gray-700 w-[600px] h-[89px]">
-        <div className="absolute top-2 left-2">{title}</div>
+      <div className="relative rounded-md my-1 bg-slate-800 w-[570px] h-[89px]">
+        <div className="absolute top-2 left-2 text-blue-600">{title}</div>
         <div className="text-7xl absolute right-2 top-2 ">{value}</div>
       </div>
     </>
